@@ -1,0 +1,42 @@
+body {
+  overflow-x: hidden;
+}
+.logo {
+  height: 100px;
+  margin-left: 50px;
+}
+
+.App {
+  background-color: #000;
+  font-family: Roboto, sans-serif;
+  overflow-x: hidden;
+}
+
+.container {
+  margin: 0 0 0 50px;
+  padding-bottom: 40px;
+}
+
+.title {
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.movies {
+  display: flex;
+  overflow-x: auto;
+  overflow-y: hidden;
+  white-space: nowrap;
+  padding-bottom: 20px;
+  min-width: 100%;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.movies img {
+  width: 220px;
+  height: 120px;
+  flex-shrink: 0;
+}
